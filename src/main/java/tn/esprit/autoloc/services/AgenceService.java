@@ -4,7 +4,6 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import tn.esprit.autoloc.entities.Agence;
 import tn.esprit.autoloc.repositories.AgenceRepository;
-import tn.esprit.autoloc.services.IAgenceService;
 
 import java.util.List;
 

@@ -14,9 +14,9 @@ import java.util.Set;
 @NoArgsConstructor
 @Entity
 public class Agence {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id_agence")
     private Long idAgence;
     private String nom;
     private String ville;

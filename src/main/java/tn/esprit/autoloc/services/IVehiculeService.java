@@ -6,6 +6,6 @@ import java.util.List;
 public interface IVehiculeService {
     Vehicule ajouterVehicule(Vehicule vehicule);
     Vehicule modifierVehicule(Vehicule vehicule);
-    List<Vehicule> afficherVehicule();
+    List<Vehicule> afficherVehicules();
     void supprimerVehicule(Long id);
 }

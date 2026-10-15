@@ -4,7 +4,6 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import tn.esprit.autoloc.entities.Employe;
 import tn.esprit.autoloc.repositories.EmployeRepository;
-import tn.esprit.autoloc.services.IEmployeService;
 
 import java.util.List;
 
