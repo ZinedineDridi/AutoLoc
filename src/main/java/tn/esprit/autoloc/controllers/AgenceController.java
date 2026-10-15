@@ -27,12 +27,6 @@ public class AgenceController {
         return ResponseEntity.ok(agenceService.afficherAgences());
     }
 
-    /*@GetMapping("/{id}")
-    public ResponseEntity<Agence> getById(@PathVariable Long id) {
-        return agenceService.getById(id)
-                .map(ResponseEntity::ok)
-                .orElse(ResponseEntity.notFound().build());
-    }*/
 
     @PutMapping
     public ResponseEntity<Agence> update(@RequestBody Agence agence) {
